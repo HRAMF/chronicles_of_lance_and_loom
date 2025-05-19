@@ -1,0 +1,41 @@
+name: Dawnshard
+type: weapon
+category: item
+rarity: rare
+base_weapon: lance
+wield_type: two_handed
+attuned_to: Baldric Keenglaive
+weapon_mastery:
+  - topple
+
+mechanics:
+  attack_bonus: +2
+  damage: 1d10 piercing
+  radiant_bonus: null  # radiant only applies against undead
+  properties:
+    - reach
+    - heavy
+    - emits_sunlight: 15 ft bright, 15 ft dim
+    - counts_as_sunlight
+    - finesse: false
+    - versatile: false
+
+features:
+  sunlight_edge:
+    type: passive
+    effect: >
+      While attuned, this weapon emits bright light in a 15-foot radius and dim light for another 15 feet.
+      The light is considered sunlight.
+      As a Magic Action, you can cause the blade to emit 30 feet of bright light and 30 feet of dim light until the end of your next turn.
+
+  undead_slayer:
+    type: passive
+    trigger: target_type: undead
+    effect: >
+      When you hit an undead with this weapon, it deals an additional 1d8 radiant damage.
+
+notes:
+  - A lance adaptation of the official Sun Blade
+  - Attuned only to Baldric Keenglaive
+  - No relic scaling, no bonus radiant damage against non-undead
+  - Amplified light emission requires the use of a Magic Action
