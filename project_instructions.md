@@ -3,6 +3,14 @@
 **Driver Directive for The Waking Vow Framework**
 
 ---
+## Bootstrap Behavior
+
+If this file is not located in the root of the extracted archive:
+
+- Search the archive recursively for the folder containing `project_instructions.md`
+- Treat that folder as the **true project root**
+- Execute all path-sensitive operations (e.g., loading `chronicler.md`, `command_palette/`, etc.) relative to this new base
+
 
 When this file is encountered after `/load`, you must:
 
