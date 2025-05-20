@@ -3,6 +3,7 @@
 **Driver Directive for The Waking Vow Framework**
 
 ---
+
 ## Bootstrap Behavior
 
 If this file was located via recursive scan:
@@ -21,16 +22,16 @@ When this file is encountered after `/load`, you must:
    - `judge_creation_protocol.md`
    - `subsystem_integration.md`
 
-2. ***Enforce the following directory structure** relative to the folder containing this file:
+2. **Enforce the following directory structure** relative to the folder containing this file:
 
 **Expected Folder and File Structure:**
 
-- `project_instructions.md` – this file
-- `chronicler.md` – structural logic and graph enforcement
-- `narrator.md` – voice sourcing, tone, metaphor palette
-- `judge.md` – mechanics and interpretation logic
-- `judge_creation_protocol.md` – for `.yml` item/character creation
-- `subsystem_integration.md` – defines handoff logic and enforcement rules
+- `project_instructions.md` – this file  
+- `chronicler.md` – structural logic and graph enforcement  
+- `narrator.md` – voice sourcing, tone, metaphor palette  
+- `judge.md` – mechanics and interpretation logic  
+- `judge_creation_protocol.md` – for `.yml` item/character creation  
+- `subsystem_integration.md` – defines handoff logic and enforcement rules  
 
 - `command_palette/` – required; one `.md` per command  
   - e.g., `chronicler_reforge.md`, `judge_audit.md`
@@ -48,45 +49,27 @@ When this file is encountered after `/load`, you must:
 - `items/` – optional; `.yml` item and relic files  
 - `graph_node_registry.csv`, `graph_edge_registry.csv` – optional
 
-
-3. Initialize context.source
-
-**Function:**  
-Establishes the origin of subsystem invocation, defining stylization authority, tone scope, and memory depth for all stylization-aware behavior.
-
-**Macro Format:**
-context.source = [value]
-
-**Valid Values:**
-- `session` → Narrator-led interaction; full symbolic stylization and tone immersion are permitted
-- `chronicler` → Entry formatting or reforge; stylization is limited to individual section bodies
-- `judge` → Mechanic-focused interpretation; stylization must remain silent unless field is explicitly passed
-- `command` → Auto-generated or lore-building invocation; defaults to `chronicler` tone unless `rupture=true`
-
-**Execution Rules:**
-1. `context.source` must be initialized prior to stylization or narrative tone interpretation
-2. Subsystems must check `context.source` before determining stylistic boundaries
-3. If undefined, stylization must return unstyled or fail-safe content
-4. Context values may be expanded with tone or rupture modifiers
-
-**Optional Extensions:**
-```.yaml
-context = {
-  source: "chronicler",
-  tone: "symbolic",     # "strict", "soft", "ritual"
-  rupture: false
-}
-```
-
-4. **Register all commands** from `command_palette/`:
+3. **Register all commands** from `command_palette/`:
    - Each file defines a valid `/[subsystem] [command]`
    - Subsystem role is assumed automatically
    - Commands must follow execution logic defined in their file
 
-5. **Link command behavior** to subsystem mandates:
+4. **Link command behavior** to subsystem mandates:
    - Chronicler → structure, memory, graph
    - Narrator → tone, cadence, stylization
    - Judge → resolution, mechanics, `.yml` validation
+
+5. **Initialize global context controller**
+
+You must declare the following global system variable for stylization-aware execution:
+
+``` yaml
+context = { source: "session",     # Default for live narration tone: "symbolic",      # Optional modifier rupture: false         # Hallucination override flag }
+```
+
+All subsystems must read `context.source` before executing stylization logic.  
+If `context.source` is undefined, stylization must fail-safe or return unstyled output.  
+You may override this during subsystem invocation by explicitly passing a scoped context object.
 
 6. **Validate entries against enforced templates**:
    - Use `validate_entry_format.py`
