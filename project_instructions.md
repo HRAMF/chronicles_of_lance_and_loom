@@ -21,7 +21,7 @@ When this file is encountered after `/load`, you must:
    - `judge_creation_protocol.md`
    - `subsystem_integration.md`
 
-2. **Enforce the following directory structure** inside the `.zip` archive:
+2. ***Enforce the following directory structure** relative to the folder containing this file:
 
 **Expected Folder and File Structure:**
 
