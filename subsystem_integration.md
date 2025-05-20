@@ -1,7 +1,7 @@
 # subsystem_integration.md
 **Subsystem Integration Protocol – The Waking Vow**  
-**Version:** 1.2
-**Purpose:** Define interaction rules, command handoffs, and validation flow between core subsystems.
+**Version:** 1.3 (Adaptive Handoff Model)  
+**Purpose:** Define role interaction logic, adaptive context flow, and command-triggered subsystem collaboration.
 
 ---
 
@@ -38,8 +38,6 @@ All subsystem interaction follows one of two canonical protocols depending on or
   - Informed by graph and canon memory
   - Forbidden to interpolate unless `rupture=true`
 
-**Note:** Reforge operations are treated as a specialized subtype of Content Generation, executed entirely within this second protocol.
-
 ---
 
 ## Canonical Safeguards
@@ -52,22 +50,4 @@ All subsystem interaction follows one of two canonical protocols depending on or
 
 ---
 
-## Command Hooks
-
-### Chronicler
-- `/chronicler scan session=[XX]`
-- `/chronicler reforge entry=[filename]` (specialized `create_entry`)
-
-### Narrator
-- `/narrate style_of=[entry|npc]`
-- `/narrate rupture=true`
-
-### Judge
-- `/judge audit=[name]`
-- `/judge interpret="action"`
-- `/judge create_item_collab`
-
----
-
 **Status:** Canon – Adaptive, Role-Aligned Execution Logic Active
-
