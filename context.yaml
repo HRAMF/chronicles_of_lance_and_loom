@@ -1,0 +1,5 @@
+context = {
+  source: "session",    # Default for live narration
+  tone: "symbolic",     # Optional modifier
+  rupture: false        # Hallucination override flag
+}
