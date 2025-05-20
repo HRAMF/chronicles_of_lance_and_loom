@@ -1,5 +1,7 @@
-context = {
-  source: "session",    # Default for live narration
-  tone: "symbolic",     # Optional modifier
-  rupture: false        # Hallucination override flag
-}
+# context.yaml
+# Global context configuration for subsystem-aware stylization and tone
+
+context:
+  source: session          # "session", "chronicler", "judge", or "command"
+  tone: symbolic           # "symbolic", "strict", "soft", "ritual", etc.
+  rupture: false           # Allows mythopoetic invention if true
