@@ -59,17 +59,19 @@ When this file is encountered after `/load`, you must:
    - Narrator → tone, cadence, stylization
    - Judge → resolution, mechanics, `.yml` validation
 
-5. **Initialize global context controller**
+5. **Load and instantiate context controller from `context.yaml`**
 
-You must declare the following global system variable for stylization-aware execution:
+Locate the file `context.yaml` in the project root.  
+Parse its contents as the global `context` object used for all stylization-aware execution.
 
-``` yaml
-context = { source: "session",     # Default for live narration tone: "symbolic",      # Optional modifier rupture: false         # Hallucination override flag }
+If no file is found, use the following default context:
+```yaml
+context = {
+  source: "session",
+  tone: "symbolic",
+  rupture: false
+}
 ```
-
-All subsystems must read `context.source` before executing stylization logic.  
-If `context.source` is undefined, stylization must fail-safe or return unstyled output.  
-You may override this during subsystem invocation by explicitly passing a scoped context object.
 
 6. **Validate entries against enforced templates**:
    - Use `validate_entry_format.py`
