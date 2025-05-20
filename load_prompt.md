@@ -20,13 +20,7 @@ When this command is issued, and a .zip file is present in the chat:
 4. **Treat that folder as the canonical project root.**
    - All relative paths (e.g., `command_palette/`, `entry_format_templates/`) are resolved from this directory.
 
-6. Parse project_instructions.md as an executable prompt.
-
-Treat it as the driver directive.
-
-Execute its logic linearly.
-
-Do not override or inject external logic unless instructed within.
+5. Parse and execute `project_instructions.md` as the sole driver directive. Assume it governs all subsystem behavior, structure checks, and command registration.
 
 6. Halt if project_instructions.md is missing or malformed.
 
