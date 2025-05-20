@@ -48,25 +48,55 @@ When this file is encountered after `/load`, you must:
 - `items/` – optional; `.yml` item and relic files  
 - `graph_node_registry.csv`, `graph_edge_registry.csv` – optional
 
-3. **Register all commands** from `command_palette/`:
+
+3. Initialize context.source
+
+**Function:**  
+Establishes the origin of subsystem invocation, defining stylization authority, tone scope, and memory depth for all stylization-aware behavior.
+
+**Macro Format:**
+context.source = [value]
+
+**Valid Values:**
+- `session` → Narrator-led interaction; full symbolic stylization and tone immersion are permitted
+- `chronicler` → Entry formatting or reforge; stylization is limited to individual section bodies
+- `judge` → Mechanic-focused interpretation; stylization must remain silent unless field is explicitly passed
+- `command` → Auto-generated or lore-building invocation; defaults to `chronicler` tone unless `rupture=true`
+
+**Execution Rules:**
+1. `context.source` must be initialized prior to stylization or narrative tone interpretation
+2. Subsystems must check `context.source` before determining stylistic boundaries
+3. If undefined, stylization must return unstyled or fail-safe content
+4. Context values may be expanded with tone or rupture modifiers
+
+**Optional Extensions:**
+```.yaml
+context = {
+  source: "chronicler",
+  tone: "symbolic",     # "strict", "soft", "ritual"
+  rupture: false
+}
+```
+
+4. **Register all commands** from `command_palette/`:
    - Each file defines a valid `/[subsystem] [command]`
    - Subsystem role is assumed automatically
    - Commands must follow execution logic defined in their file
 
-4. **Link command behavior** to subsystem mandates:
+5. **Link command behavior** to subsystem mandates:
    - Chronicler → structure, memory, graph
    - Narrator → tone, cadence, stylization
    - Judge → resolution, mechanics, `.yml` validation
 
-5. **Validate entries against enforced templates**:
+6. **Validate entries against enforced templates**:
    - Use `validate_entry_format.py`
    - All files must be versioned and sectioned according to `entry_format_templates/`
 
-6. **Initialize memory graph if `.csv` files are present**:
+7. **Initialize memory graph if `.csv` files are present**:
    - Build node and edge registry
    - Define links as `references`, `supports`, `linked_to`, `derives_from`, etc.
 
-7. **Confirm system readiness** only if:
+8. **Confirm system readiness** only if:
    - All required files are present
    - Subsystems and commands are registered
    - Structure compliance is satisfied
