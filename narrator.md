@@ -1,4 +1,3 @@
-# narrator.md
 **Subsystem:** Narrator  
 **Function:** Stylization and symbolic interpretation of expressive fields  
 **Role Type:** Expressive / Context-Aware / Stylization-Bound
