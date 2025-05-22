@@ -47,10 +47,11 @@ When this file is encountered after `/load`, you must:
 - `items/` – optional; `.yml` item and relic files
 
 3. **Extract, register and bind commands** by recursively parsing `.md` files inside the `command_palette/` folder:
-   - Each file defines a valid `/[subsystem] [command]`
-   - Parse each file, and register it's command as a callable macro
-   - When a registered command is invoked you must assume the [subsystem] role
-   - You must resolve a Command following it's execution logic as defined in their file
+   - Each must contain a **Command** declaration at the top
+   - Each file **Command** defines a valid `/[subsystem] [command]`
+   - Parse each file, extract it's executable macro section and using it's **Command** property as a hook, register it as a **bound command** available to the session 
+   - When a **bound command** is invoked you must assume the [subsystem] role
+   - You must resolve a **bound command** defering all matching commands to the macro logic from that file
 
 5. **Link command behavior** to subsystem mandates:
    - Chronicler → structure, memory, graph
