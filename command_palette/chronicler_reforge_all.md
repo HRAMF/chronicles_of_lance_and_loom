@@ -5,12 +5,7 @@
 
 ## Purpose
 
-Retroactively format all `.md` entries in a given session folder and ensure they are:
-- Brought into compliance with their schema
-- Rewritten to `graph/entries/[XX-entries]/`
-- Properly registered in the directed graph
-
-This command is intended to resolve legacy or malformed entries by passing them through the canonical creation pipeline.
+This command is intended to revalidate and reformat structurally noncompliant entries located exclusively in graph/entries/[XX-entries]/, bringing them into alignment with template schema and registering them into the memory graph.
 
 ---
 
