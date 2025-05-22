@@ -50,7 +50,7 @@ When this file is encountered after `/load`, you must:
 
    - Each file must contain a **Command** declaration at the top
    - The **Command** defines a valid `/[subsystem] [command]`
-   - Parse each file, extract its executable macro section, and register it using the **Command** as a binding hook
+   - Parse each file, extract its `#Execution Behavior` section, and register it using the **Command** as a binding hook
    - Register the command as a **bound command** available to the session
    - When a **bound command** is invoked:
      - You must assume the `[subsystem]` role
