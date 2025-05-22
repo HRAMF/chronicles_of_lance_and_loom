@@ -14,26 +14,32 @@ This command is intended to resolve legacy or malformed entries by passing them 
 
 ---
 
+## Path Resolution Macro
+
+### PATCH: Ensure reforge_all resolves correct path structure
+    def resolve_entry_path(session):
+        return f"graph/entries/{session}-entries"
+
+---
+
 ## Execution Flow
 
 When this command is invoked:
 1. Set `context.source = chronicler`
-2. For each file in `graph/entries/[XX-entries]/`:
+2. Resolve target directory:
+       path = resolve_entry_path(session)
+3. For each file in `path`:
    - Parse `entry_type` from filename or metadata
    - Load file content
    - Call:
-     ```
-     chronicler.create_entry(entry_type, data, reforge=True)
-     ```
+         chronicler.create_entry(entry_type, data, reforge=True)
      - This triggers template enforcement
      - If `stylize = true`, invokes stylization on compliant fields
      - If `stylize = false`, skips stylization step
-   - Write updated file back to `graph/entries/[XX-entries]/`
+   - Write updated file back to `path`
    - Call:
-     ```
-     graph.index_entry(entry)
-     graph.infer_edges(entry)
-     ```
+         graph.index_entry(entry)
+         graph.infer_edges(entry)
 
 ---
 
@@ -46,9 +52,10 @@ When this command is invoked:
 ---
 
 ## Response
-```
-All entries in session [XX] have been reforged and indexed. Stylization: [enabled|disabled]
-```
+
+    All entries in session [XX] have been reforged and indexed.
+    Stylization: [enabled|disabled]
+
 ---
 
-**Status:** Canon – Chronicler Batch Compliance Tool (v1.4.1)
+**Status:** Canon â€“ Chronicler Batch Compliance Tool (v1.4.1)
