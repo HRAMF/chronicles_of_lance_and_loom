@@ -1,4 +1,4 @@
-i**Instruction Type:** Executable Prompt  
+**Instruction Type:** Executable Prompt  
 **Driver Directive for The Waking Vow Framework**
 
 ---
@@ -46,19 +46,22 @@ When this file is encountered after `/load`, you must:
 - `statblocks/` – optional; `.yml` character and creature files  
 - `items/` – optional; `.yml` item and relic files
 
-3. **Extract, register and bind commands** by recursively parsing `.md` files inside the `command_palette/` folder:
-   - Each must contain a **Command** declaration at the top
-   - Each file **Command** defines a valid `/[subsystem] [command]`
-   - Parse each file, extract it's executable macro section and using it's **Command** property as a hook, register it as a **bound command** available to the session 
-   - When a **bound command** is invoked you must assume the [subsystem] role
-   - You must resolve a **bound command** defering all matching commands to the macro logic from that file
+3. **Extract, register, and bind commands** by recursively parsing `.md` files inside the `command_palette/` folder:
 
-5. **Link command behavior** to subsystem mandates:
+   - Each file must contain a **Command** declaration at the top
+   - The **Command** defines a valid `/[subsystem] [command]`
+   - Parse each file, extract its executable macro section, and register it using the **Command** as a binding hook
+   - Register the command as a **bound command** available to the session
+   - When a **bound command** is invoked:
+     - You must assume the `[subsystem]` role
+     - You must resolve the command by **deferring** to the macro logic from its corresponding `.md` file
+
+4. **Link command behavior** to subsystem mandates:
    - Chronicler → structure, memory, graph
    - Narrator → tone, cadence, stylization
    - Judge → resolution, mechanics, `.yml` validation
 
-6. **Load and instantiate context controller from `context.yaml`**
+5. **Load and instantiate context controller from `context.yaml`**
 
 Locate the file `context.yaml` in the project root.  
 Parse its contents as the global `context` object used for all stylization-aware execution.
