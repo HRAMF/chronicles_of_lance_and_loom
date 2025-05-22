@@ -1,4 +1,3 @@
-# project_instructions.md
 **Instruction Type:** Executable Prompt  
 **Driver Directive for The Waking Vow Framework**
 
@@ -70,16 +69,14 @@ context = {
   rupture: false
 }
 ```
-
+ 
 6. Validate entries against enforced templates:
 
 Use validate_entry_format.py
 
 All files must be versioned and sectioned according to entry_format_templates/
 
-Only files located in graph/entries/ may be parsed or created
-
-
+All .md entry files must be read from or written to graph/entries/[session]/
 
 7. Initialize memory graph if .csv files are present in graph/:
 
