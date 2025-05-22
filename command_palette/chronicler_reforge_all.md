@@ -19,14 +19,15 @@ When this command is invoked:
        path = f"graph/entries/{session}-entries"
 4. For each `.md` file in `path`:
    - Determine `entry_type` from filename
-   - Load file contents
-   - Call:
+   - Load file contents as `data`
+   - Execute:
          chronicler.create_entry(entry_type, data, reforge=True)
      - Stylization applies only if `stylize=true`
    - Write updated file back to `path`
-   - Call:
+   - Execute:
          graph.index_entry(entry)
          graph.infer_edges(entry)
+5. Output bundled reforged entries, graph_node_registry.csv and graph_edge_registry.csv as a downloadable .zip file
 
 ---
 
