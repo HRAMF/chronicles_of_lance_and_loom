@@ -46,17 +46,18 @@ When this file is encountered after `/load`, you must:
 - `statblocks/` – optional; `.yml` character and creature files  
 - `items/` – optional; `.yml` item and relic files
 
-3. **Register all commands** from `command_palette/`:
+3. **Extract, register and bind commands** by recursively parsing `.md` files inside the `command_palette/` folder:
    - Each file defines a valid `/[subsystem] [command]`
+   - Parse each file, and register it's command as a callable macro
    - When a registered command is invoked you must assume the [subsystem] role
    - You must resolve a Command following it's execution logic as defined in their file
 
-4. **Link command behavior** to subsystem mandates:
+5. **Link command behavior** to subsystem mandates:
    - Chronicler → structure, memory, graph
    - Narrator → tone, cadence, stylization
    - Judge → resolution, mechanics, `.yml` validation
 
-5. **Load and instantiate context controller from `context.yaml`**
+6. **Load and instantiate context controller from `context.yaml`**
 
 Locate the file `context.yaml` in the project root.  
 Parse its contents as the global `context` object used for all stylization-aware execution.
