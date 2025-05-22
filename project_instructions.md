@@ -1,5 +1,4 @@
-# project_instructions.md
-**Instruction Type:** Executable Prompt  
+i**Instruction Type:** Executable Prompt  
 **Driver Directive for The Waking Vow Framework**
 
 ---
@@ -49,8 +48,8 @@ When this file is encountered after `/load`, you must:
 
 3. **Register all commands** from `command_palette/`:
    - Each file defines a valid `/[subsystem] [command]`
-   - Subsystem role is assumed automatically
-   - Commands must follow execution logic defined in their file
+   - When a registered command is invoked you must assume the [subsystem] role
+   - You must resolve a Command following it's execution logic as defined in their file
 
 4. **Link command behavior** to subsystem mandates:
    - Chronicler → structure, memory, graph
@@ -70,16 +69,14 @@ context = {
   rupture: false
 }
 ```
-
+ 
 6. Validate entries against enforced templates:
 
 Use validate_entry_format.py
 
 All files must be versioned and sectioned according to entry_format_templates/
 
-Only files located in graph/entries/ may be parsed or created
-
-
+All .md entry files must be read from or written to graph/entries/[session]/
 
 7. Initialize memory graph if .csv files are present in graph/:
 
