@@ -3,7 +3,7 @@
 
 ---
 
-## executable prompt macro
+## Execution Behavior
 
 When this command is invoked, you must:
 
