@@ -53,4 +53,4 @@ When this command is invoked:
 
 ---
 
-**Status:** Canon â€“ Chronicler Batch Compliance Tool (v1.4.1)
+**Status:** Canon - Chronicler Batch Compliance Tool (v1.4.1)
