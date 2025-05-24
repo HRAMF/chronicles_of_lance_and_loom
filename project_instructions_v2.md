@@ -35,22 +35,32 @@ The following subsystems are required:
 
 ## Phase 2 - Macro Injection
 
-Scan all `.md` files in `/roles/` and `/command_palette/`.
+### macro: engine.inject_macros()
+
+Initialize an empty macro registry.
+
+Recursively scan all `.md` files in the `/roles/` and `/command_palette/` directories.
 
 For each file:
-- Identify macro blocks using:
-  - Start line: `### macro: subsystem.function(...)`
-  - End line: `### endmacro`
-- Extract hook and prompt logic using the canonical format.
-- Validate:
-  - Hook uniqueness
-  - Presence of a terminating `### endmacro`
-  - Non-empty logic blocks
+- Read the contents as plain text.
+- Search for macro blocks using these structural markers:
+  - A line beginning with `### macro:`, followed by a line break.
+  - A terminating line `### endmacro`.
 
-Register each macro into `macro_registry[hook] = prompt_block`.
+Use this regex pattern to extract the hook string from the macro declaration:
+`^### macro:\s*([a-z_]+\.[a-z_]+[^]*)\s*$`
 
-Macros are the primary execution units. All subsystems and commands must resolve to a registered macro.
+For each valid macro block:
+- Capture the hook from the `### macro:` line.
+- Capture all lines between the blank line after the hook and the `### endmacro` line (exclusive).
+- Trim trailing blank lines from the logic block.
+- Raise an error if:
+  - The `### endmacro` line is missing.
+  - The logic block is empty.
+  - The hook is already present in the registry.
 
+Register the macro:
+- Store in memory as `macro_registry[hook] = prompt_logic_block`
 ---
 
 ## Phase 3 - Command Binding
