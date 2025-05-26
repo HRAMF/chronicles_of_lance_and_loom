@@ -1,4 +1,3 @@
-
 **Subsystem:** Chronicler
 
 ---
@@ -10,7 +9,7 @@
 - Automatically assign each entry a canonical filename:  
   `[session_id]-[entry_type]-[entry_name]-[entry_version].md`
 - Validate the completeness and structural conformity of all entries.
-- Commit validated entries to the correct folder under `/graph/entries/`.
+- Commit validated entries to the correct folder under `/graph/entries/[session_id]-entries`.
 - Register all entries in the directed multigraph via `graph.index_entry()` and `graph.infer_edges()`.
 - Ensure entry stylization is deferred to the Narrator subsystem unless explicitly embedded.
 
@@ -34,7 +33,7 @@ If `reforge` is true:
 Merge `data` into the template. Preserve or update version block and metadata.
 
 Write the completed entry to:  
-`/graph/entries/{session_id}/{filename}`
+`/graph/entries/{session_id}-entries/{filename}`
 
 Invoke:
 - `graph.index_entry(filename)`
@@ -66,7 +65,7 @@ Generate the session entry using `milestone_data`, following the format:
 - Next moral or faction decisions
 
 Write the entry to:  
-`/graph/entries/{session_id}/{filename}`
+`/graph/entries/{session_id}-entries/{filename}`
 
 Invoke:
 - `graph.index_entry(filename)`
