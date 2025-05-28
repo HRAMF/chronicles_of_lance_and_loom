@@ -12,9 +12,10 @@ Baldric Keenglaive was born under both.
 
 It was in the cusp of winter, 1344 DR, in the wind-swept Barony of Polten, that he entered the world. Not amid banners or horns, but between furrowed fields and the incense of morning bread. His first cry rang out not in a castle—but in a stone-barn turned sanctuary, as a soft dawn broke across the Lake of Mogador. His mother wept in silence. His father, Wycbuhr, named him after no ancestor—but after a vision.
 
-From the first, he bore signs not easily ignored. His eyes glowed with warm white light, like the first rays that crown the horizon. His skin, bronze with a metallic sheen, shimmered subtly when struck by the sun. And his hair, full and dark as the void before morning, framed a face that seemed wrought not from clay, but promise.
+From the first, he bore signs not easily ignored. His eyes glowed with warm white light, like the first rays that crown the horizon. His skin was fair and rosed, but under the sun it shimmered with a metallic bronze sheen, as if kissed by the forge of the heavens. And his hair, full and dark as the void before morning, framed a face that seemed wrought not from clay, but promise.
 
-They did not know what he would become. But the heavens already did.
+They did not know what he would become.
+But the heavens already did.
 
 
 ---
@@ -49,7 +50,11 @@ The Pilgrimage West
 
 Baldric departed before his eighth spring. Not in chains, not in shame—but in promise. It was a pilgrimage, born of love and foresight. He would go west, to Waterdeep, escorted by Brother Gylas—a monk of the Order of the Sun Soul who carried no weapon but memory.
 
-Wycbuhr did not weep. He gripped Baldric’s shoulder, placed the family seal in his palm, and said: “Not all inheritances weigh the same. Yours will burn. Let it be light for others.”
+Wycbuhr did not weep. He gripped Baldric’s shoulder, placed the family seal in his palm, and said:
+
+> “Not all inheritances weigh the same, my boy. Yours is heavier than most. But we’ve made it sturdy in you. You carry our name, our hopes, and a fire that’s yours alone. When the road feels long, remember what planted you—and what you might light in others.”
+
+
 
 Gylas and Baldric walked, rode, and sometimes slept beneath quiet skies. Along the way, they visited shrines of Lathander. Gylas never preached. He told stories. Of people who failed and tried again. Of those who chose to build, not to conquer. Of mornings after the worst of nights.
 
@@ -64,19 +69,19 @@ It was in the third season of their travel, amidst the hush of a Damaran winter,
 
 A golden field stretched before him. A lance stood upright in the earth, untouched by shadow. Around him, feathers fell—not from sky, but from radiance itself, shimmering like the sun’s corona at first light.
 
-> "Your soul will not be commanded. It will be harmonized. We are not your masters—we are your mirror."
+A woman stood at the far edge of the field—tall, armored in resplendent light, her wings vast and unfurled like dawn stretched wide. Her face bore the strength of stone, and the kindness of a mother who had already forgiven what had not yet been done.
+
+> “Do not fear what makes you different. The world will. That is not your burden.”
+
+“You were made to rise when others break. To shield, to guide, to shine.”
+
+“Remember this: courage is not in the silence before battle—but in the stand you take when none stand with you.”
 
 
 
-He turned. A figure of incandescent form stood at the field’s edge, faceless, robed in solar fire—not man or woman, but essence, a perfection of presence.
+He knew her name before she gave it. Aurealis—a beacon of Valor, a voice from the fields of Elysium.
 
-> “Remember what you are. Remember before you are asked.”
-
-
-
-The next morning, Gylas said nothing, but watched him from across the fire. Then, with care, he handed Baldric a small braided cord. “Aurealis,” he said simply. “That is the name you heard.”
-
-And it would not be the last.
+The next morning, Gylas said nothing, but watched him from across the fire. Then, with care, he handed Baldric a small braided cord. “You’ve met her,” he said gently. “She’s watched you longer than I have.”
 
 
 ---
@@ -88,8 +93,7 @@ By the time they reached the gates of Waterdeep, Baldric no longer walked like a
 In the heart of a vast city, among strangers, he would soon find his first brotherhood. But that is another chapter.
 
 For now, he crossed into the city of splendors with only this:
-A cord of sun-gilded thread, a family sigil, and a name spoken in firelight:
+A cord of sun-gilded thread, a family sigil, and a name whispered in firelight:
 
 Aurealis.
 
-  
