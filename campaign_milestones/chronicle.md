@@ -65,7 +65,7 @@ And the boy listened.
 
 The Voice in the Dream
 
-It was in the third season of their travel, amidst the hush of a Damaran winter, that Baldric first heard the voice in the dream:
+It was in the third season of their travel, amidst the hush of a winter, still weeks away from Waterdeep, that Baldric first heard the voice in the dream:
 
 A golden field stretched before him. A lance stood upright in the earth, untouched by shadow. Around him, feathers fell—not from sky, but from radiance itself, shimmering like the sun’s corona at first light.
 
@@ -96,4 +96,64 @@ For now, he crossed into the city of splendors with only this:
 A cord of sun-gilded thread, a family sigil, and a name whispered in firelight:
 
 Aurealis.
+
+Chapter II: Of Dawn and Discipline
+
+(1351–1356 DR – The Waterdeep Years)
+
+To step into Waterdeep was to step into the breath of a giant.
+
+Baldric Keenglaive, seven winters old, did not flinch. He stood at the gates with Gylas beside him, a hand on the hilt of the unknown. And beyond, in the stone courtyards and temple spires of the City of Splendors, his second home awaited—tempered not in blood, but in vow.
+
+The Monastery of the Sun
+
+The monastery rose like a hymn in stone—quiet, deliberate, composed. There were no banners, no brazen calls to arms. Only bells in the morning, and silence in the dusk.
+
+Here, Baldric began his training among monks of the Sun Soul—those who believed that light was not taught, but revealed through movement, stillness, breath. His tutors praised not his strength, but his presence: the way he listened without fidgeting, moved without waste, held silence like a chalice.
+
+He studied polearm forms at dawn and transcribed prayers at twilight. He whispered Lathander’s morning hymns to himself while scrubbing floors. And slowly, the monastery shaped him—not into something new, but into someone returning.
+
+The Spires of the Morning
+
+By the time he was nine, Gylas led him to the high temples: The Spires of the Morning, where light pierced through golden windows and prayers thundered like marches.
+
+There, he met Ghentilara, stern and splendid, who watched him kneel and whispered to another priest: “That one has the sun in his marrow.” He was placed into liturgical training—learning tactics and scripture side by side, song and formation, mercy and war.
+
+Where the monastery was inward, the Spires were outward. But Baldric did not see contradiction. He saw balance.
+
+The Awakening
+
+It was during a sparring session in his eleventh year that it came: not a flash, but a flow.
+
+He moved without thinking—graceful, unwavering. Each strike sang. And as the bout neared its end, something stirred. Not wrath. Not victory. But clarity.
+
+Radiance pooled in his limbs—not like fire, but breath. A surge that mirrored his stillness. His final strike glowed gold and soft—and his opponent fell, unharmed, but dazed by brilliance.
+
+There was no outcry. No fear. Only silence. And then applause.
+
+Gylas smiled, for the first time in weeks, and simply said, “You remembered.”
+
+The Second Dream
+
+That night, Aurealis returned.
+
+This time, not alone. Behind her stood figures in rows—robed, winged, gleaming with Elysium’s clarity. They sang, but the song was not for Baldric. It was about him.
+
+“Strength must hold, not crush.”
+
+“Light must pierce, not blind.”
+
+“You are not one or the other. You are the moment they meet.”
+
+She stepped forward, touched his brow, and whispered:
+
+“Balance is not stillness. It is flight with two wings.”
+
+And he woke with tears on his cheeks.
+
+In his fifth year in Waterdeep, the boy who had arrived with a sigil and a song now stood on the threshold of oath. Not yet a knight. Not yet a blade. But he had become something rarer:
+
+A vessel of discipline. A student of radiance. A son of dawn.
+
+The next chapter would begin north, beneath the silver stars of another city, where destiny would test not his soul—but his resolve.
 
