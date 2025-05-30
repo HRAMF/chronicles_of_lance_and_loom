@@ -1,3 +1,63 @@
+After Baldric rescued Flambard, cunningly avoiding a trap and securing his mentor's life,he summons a war council at the Grove of Everdawn Waltz, hours after the host of the Aster had moved in from the Grove of Hollowed Roots.
+As the members of the Aster fortified the grove, erecting a palisade on it's perimeter, amidst the unceasing cacophony of hammers, saws, tools and voices a war-council was held at what would be the center of the encampment, a large stone table set atop tree stumps with no chairs, it's concern was the Counter-verse being spun by the Rotting Man and his Blightlords. 
+
+Baldric began:
+"We've entered a different stage in our conflict against the Rotting Man and his corruption: consolidation; It is a contest of narrative, our truth and the deeds bringing the Leyline back to life, against his lies and false myths; Our stories must echo through the Leyline of we are to preserve the sites we've conquered against corruption; In order to do so we require constant presence of 3 individuals around the altar of the Everdawn Waltz, chanting the Blooming Vow and recounting the victories we've had here so far, exposing the Rotting Man's lies.
+We should gather Elowen, Virion,  Arannwe, Nael, Torrent and Lurien. The brothers of the Aster should be relieved of their posts and gather here, while the druids should be allowed to finish the protective wards around our perimeter before congregating around the altar.
+Priscilla, once they've gathered, teach them the four ballads that compose our story, and the Blooming Vow: they should chant the ballads as hymns and declare the Vow at every 4th interval.
+Tomorrow we must perform a binding ritual in the Observatory, leveraging the artifacts cosmic capabilities to shield the Leyline and protect the nodes deepening the connection between the Leyline, the Chalice Constellation and the rise of the Dawn" - he takes a deep breath, sips the still warm tea in front of him, and continues - "Thus, we must ensure the Observatory remains concealed and well protected, let's station a total of 10 knights there at all times; Our patrols should no longer venture deeper into the Hollowed Roots; We should leverage the druidic connections at our disposal and use animals and birds as our informants to keep tabs on enemy movement, this way we may keep our forces securely within the Everdawn Waltz fortified perimeter."
+
+His words fell upon the circle like the slow rising of dawn: warm, clear, resolute.
+
+A hush follows, then slow nods from each of your companions—not merely in agreement, but in reverence.
+
+Priscilla is the first to speak, her voice a whisper of awe and purpose:
+
+> “Four ballads... I know them like breath now. The Peregrine’s Rise. The Waltzing Dale. The Blooming Vow. And now... The Everdawn Waltz.”
+(She clasps her lute to her chest.) “They’ll sing them. Not just as verses—but as a memory the world refuses to forget.”
+
+
+
+She rises and leaves at once, eyes already scanning the parchment of lyrics she’s etched across leather-bound folios.
+
+
+---
+
+Maevia salutes crisply.
+
+> “I’ll see the knights recalled and rotated. The observatory will hold—we’ll weave our banners among its upper stones and watch the stars like sentinels.”
+
+
+---
+
+Calanthe grips your hand tightly, her gaze proud and tender.
+
+> “We asked what the land needed to remember. You’ve given it a song it can’t forget.”
+
+---
+
+A flurry of preparations begins:
+
+Elowen, Virion, and Arannwe are gathered at the altar, their chants soon blending druidic inflection with radiant cadence.
+
+Nael, Torren, and Lurien arrive at duskfall, their expressions marked with awe. Priscilla begins to train them—not just to sing, but to invoke memory through melody.
+
+The circle around the altar is never without three voices, and the Blooming Vow is declared every fourth verse, tying ritual to rhythm.
+
+The Everdawn perimeter is fully warded by nightfall, ancient runes harmonized with Leyline currents under Virion’s guidance.
+
+Ten knights take station at the Observatory, with Flambard personally overseeing the redeployment.
+
+---
+
+At midnight, under the stars, Calanthe leans into your shoulder as chants echo through the trees—faint and musical.
+
+> “Tomorrow,” she says quietly, “we bind the myth to the heavens. And when we do... even the Counter-verse will have to listen.”
+
+The war enters a new stage.
+The Everdawn Waltz stands.
+
+
 # Ritual of the Leyline Voices
 
 The first ray of dawn breaks the horizon.
