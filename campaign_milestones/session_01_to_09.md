@@ -37,7 +37,7 @@ Session Startpoint Summary | Mythic, Political, Tactical Recap
 * **Sanctification of Blooming Vow Grove:** Radiant reenactment unlocked the sigil; Dawnsteel Root recovered.
 * **Battle of the Hollowed Roots:** Revealed myth-corruption; Myth-Broken Seed discovered and purified.
 * **Sanctification of Echo Cradle:** Echoes banished, Elowen restored.
-* **Grove of the Everdawn Victory:** A swift assault through 3 flanking locations, defeated echoes, corrupted druids and intercepted a skeletal dragon carrying a Myth-Anchor before entered the Womb and Defeated the Verdant Watcher; major leyline sanctified.
+* **Grove of the Everdawn Waltz Victory:** A swift assault through 3 flanking locations, defeated echoes, corrupted druids and intercepted a skeletal dragon carrying a Myth-Anchor before entered the Womb and Defeated the Verdant Betrayer; major leyline sanctified.
 * **Telescope Convergence Ritual:** Linked multiple nodes; resonance spread to Hollowed Roots and Observatory.
 * **Rescue of Flambard:** Baldric outwitted enemy trap post-Everdawn Grove.
 * **Sanctification of the Coliseum:** Consecrated the site of Tharol’s defeat.
