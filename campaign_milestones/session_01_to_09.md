@@ -26,7 +26,7 @@ Session Startpoint Summary | Mythic, Political, Tactical Recap
 * **Grove of the Blooming Vow:** Reclaimed via reenacted wedding vow. Site of Blooming Vow Sigil; Dawnsteel Root recovered.
 * **Grove of the Hollowed Roots:** Arannwe rescued. Myth-Broken Seed revealed post-sanctification.
 * **Echo Cradle (beneath Dun-Tharos):** Myth-node sanctified. Elowen restored. Memory of the Rotting Man's failed ascension uncovered.
-* **Everdawn Grove (formerly Rot-Mother's Womb):** Site of major battle and sanctification. Now primary HQ for the party and Aster host.
+* **Grove of the Everdawn Waltz (formerly Rot-Mother's Womb):** Site of major battle and consecration through re-enacment of rebirth, renewal and hope. Becomes primary HQ for the party and Aster host.
 * **Observatory:** Site of telescope ritual. Entered leyline resonance spontaneously post-ritual.
 * **The Coliseum:** Recently reclaimed and sanctified. Site of Tharol's defeat.
 
@@ -37,7 +37,7 @@ Session Startpoint Summary | Mythic, Political, Tactical Recap
 * **Sanctification of Blooming Vow Grove:** Radiant reenactment unlocked the sigil; Dawnsteel Root recovered.
 * **Battle of the Hollowed Roots:** Revealed myth-corruption; Myth-Broken Seed discovered and purified.
 * **Sanctification of Echo Cradle:** Echoes banished, Elowen restored.
-* **Everdawn Grove Victory:** Defeated the Verdant Watcher; major leyline sanctified.
+* **Grove of the Everdawn Victory:** A swift assault through 3 flanking locations, defeated echoes, corrupted druids and intercepted a skeletal dragon carrying a Myth-Anchor before entered the Womb and Defeated the Verdant Watcher; major leyline sanctified.
 * **Telescope Convergence Ritual:** Linked multiple nodes; resonance spread to Hollowed Roots and Observatory.
 * **Rescue of Flambard:** Baldric outwitted enemy trap post-Everdawn Grove.
 * **Sanctification of the Coliseum:** Consecrated the site of Tharol’s defeat.
