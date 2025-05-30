@@ -58,11 +58,11 @@ Session Startpoint Summary | Mythic, Political, Tactical Recap
 * **Dawnlance (Current Weapon):** Found during Baldric’s background adventure in Durlag’s Tower.
 * **Coronatta (Sunforged Lance):** Not yet forged. Requires:
 
-  * **Blade**: Starsteel Heart (recovered from Mirror Trails)
-  * **Core**: Dawnsteel Root (Blooming Vow Grove)
-  * **Matrix**: Myth-Threaded Core (sanctified post-Everdawn Grove)
-  * **Crossguard**: Myth Anchor (same site)
-  * **Pommel/Sigil**: Myth-Burned Seed (sanctified during Everdawn Grove ritual)
+  * **Blade**: Starsteel Heart (recovered from Mirror Trails, after restoring Priscilla's soul)
+  * **Core**: Dawnsteel Root (found beneat the altar at the Blooming Vow Grove, after consecration)
+  * **Matrix**: Myth-Threaded Core (retrieved from the skeletal dragon remains during assault on Rot-Mother's Womb, sanctified during Everdawn Grove ritual)
+  * **Crossguard**: Sanctified Myth Anchor (retrived from the skeletal dragon during assault on Rot-Mother's Womb  sanctified during Everdawn Grove ritual)
+  * **Pommel/Sigil**: Myth-Burned Seed (retrived from corrupted Verdant Watcher during assault on Rot-Mother's Womb, sanctified during Everdawn Grove ritual)
 * **Recovered and Purified Relics:**
 
   * Oathroot Ring
@@ -101,14 +101,14 @@ Session Startpoint Summary | Mythic, Political, Tactical Recap
 
 * **Grove of the Blooming Vow** (formerly Yilth)
 * **Echo Cradle** (Elowen restored)
-* **Everdawn Grove** (HQ, sanctified Rot-Mother’s Womb)
+* **Grove of the Everdawn Waltz** (HQ, sanctified Rot-Mother’s Womb)
 * **Observatory** (resonated post-ritual)
 * **Grove of Hollowed Roots** (resonated post-ritual, Myth-Broken Seed purified)
 * **The Coliseum** (recently sanctified)
 
 ---
 
-### 9. The State of the Waking Vow (Concord Line)
+### 9. The State of the Lancelir
 
 * **Five nodes** currently resonant or sanctified.
 * Ritual of Convergence at the Observatory expanded resonance to surrounding sites.
