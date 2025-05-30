@@ -15,7 +15,7 @@ Session Startpoint Summary | Mythic, Political, Tactical Recap
 
 **Dracorage Mythal (Foreshadowed Arc)**
 
-* Priscilla's visions and early omens point to dragonkind stirring in response to false sunfire.
+* Priscilla's visions and early omens point to dragonkind stirring unprovoked, a Dracorage without King-Killar star.
 * Future arc involves confronting the resurgence of this ancient, destabilizing magic.
 
 ---
@@ -26,7 +26,7 @@ Session Startpoint Summary | Mythic, Political, Tactical Recap
 * **Grove of the Blooming Vow:** Reclaimed via reenacted wedding vow. Site of Blooming Vow Sigil; Dawnsteel Root recovered.
 * **Grove of the Hollowed Roots:** Arannwe rescued. Myth-Broken Seed revealed post-sanctification.
 * **Echo Cradle (beneath Dun-Tharos):** Myth-node sanctified. Elowen restored. Memory of the Rotting Man's failed ascension uncovered.
-* **Grove of the Everdawn Waltz (formerly Rot-Mother's Womb):** Site of major battle and consecration through re-enacment of rebirth, renewal and hope. Becomes primary HQ for the party and Aster host.
+* **Grove of the Everdawn Waltz (formerly Rot-Mother's Womb):** Site of major battle and consecration through re-enacment of rebirth, renewal and redemption. Becomes primary HQ for the party and Aster host.
 * **Observatory:** Site of telescope ritual. Entered leyline resonance spontaneously post-ritual.
 * **The Coliseum:** Recently reclaimed and sanctified. Site of Tharol's defeat.
 
