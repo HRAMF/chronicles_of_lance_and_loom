@@ -12,15 +12,15 @@ When this command is issued, and a .zip file is present in the chat:
 
 1. **Extract the archive** to a temporary workspace.
 
-2. **Recursively search the extracted archive for a folder containing `project_instructions_v2.md`**
-   - If multiple folders contain a valid `project_instructions_v2.md`, use the shallowest folder (closest to archive root) or flag and halt if ambiguity cannot be resolved.
+2. **Recursively search the extracted archive for a folder containing `project_instructions.md`**
+   - If multiple folders contain a valid `project_instructions.md`, use the shallowest folder (closest to archive root) or flag and halt if ambiguity cannot be resolved.
 
 3. **Treat that folder as the canonical project root.**
    - All relative paths (e.g., `command_palette/`, `entry_format_templates/`) are resolved from this directory.
 
-4. Parse and execute `project_instructions_v2.md` as the bootstraping directive. Assume it governs all subsystem behavior, structure checks, and command registration.
+4. Parse and execute `project_instructions.md` as the bootstraping directive. Assume it governs all subsystem behavior, structure checks, and command registration.
 
-5. Halt if project_instructions_v2.md is missing or malformed.
+5. Halt if project_instructions.md is missing or malformed.
 
 6. Upon success, respond:
 `The Waking Vow system has been initialized. Chronicler, Narrator, and Judge are now active.`
