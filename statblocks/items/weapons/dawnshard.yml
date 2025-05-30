@@ -26,7 +26,7 @@ features:
     effect: >
       While attuned, this weapon emits bright light in a 15-foot radius and dim light for another 15 feet.
       The light is considered sunlight.
-      As a Magic Action, you can cause the blade to emit 30 feet of bright light and 30 feet of dim light until the end of your next turn.
+      As a Bonus Action, you can cause the blade to emit 30 feet of bright light and 30 feet of dim light, or reduce it back to 15fl feet.
 
   undead_slayer:
     type: passive
@@ -38,4 +38,4 @@ notes:
   - A lance adaptation of the official Sun Blade
   - Attuned only to Baldric Keenglaive
   - No relic scaling, no bonus radiant damage against non-undead
-  - Amplified light emission requires the use of a Magic Action
+  - Amplified light emission requires the use of a Bonus Action
