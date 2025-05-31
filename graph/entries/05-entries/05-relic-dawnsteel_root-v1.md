@@ -10,3 +10,5 @@ When forged into a weapon, it could:
 Enhance radiant damage or divine channeling.
 Amplify effects triggered by love, oaths, or healing.
 Cannot be replicated or replaced. If destroyed, the altar must be reconsecrated anew.
+
+**Connected Files:**

@@ -38,5 +38,5 @@ May aid in deeper sanctification rituals and offer insight into ancient druidic 
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Introduced: Session 06

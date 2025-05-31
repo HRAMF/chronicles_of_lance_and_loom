@@ -41,7 +41,7 @@ Calanthe is not merely Baldric’s wife, but his equal in purpose. Her insights 
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 01 (Prologue: dream omen, preparations, emotional core)  
 - Session 05 (Co-leads the Blooming Vow consecration)  
 - Session 06 (Sanctifies myth-broken seed, leads Hollowed Roots cleansing)

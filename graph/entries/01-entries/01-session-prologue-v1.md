@@ -39,3 +39,5 @@ Closing Note: The first embers of the Waking Vow stir quietly, foreshadowed by d
 Next Session: The Grove of the Hollowed Roots
 
 
+
+**Connected Files:**

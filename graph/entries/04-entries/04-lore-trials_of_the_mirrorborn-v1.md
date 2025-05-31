@@ -29,3 +29,5 @@ Each trial is presented through symbolic constructs (pillars, echoes, visions) a
 **Activation Requirements:**  
 - Emotional resonance within a mirror-node  
 - At least
+
+**Connected Files:**

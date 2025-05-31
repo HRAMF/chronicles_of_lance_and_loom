@@ -41,7 +41,7 @@ First summoned in Session 01 as part of the couple’s preparation to leave Walt
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 01 (summoned for departure)  
 - Session 04 (aerial recon of myth-warped groves)  
 - Session 06 (deployment at Hollowed Roots)

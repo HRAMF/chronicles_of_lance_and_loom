@@ -42,6 +42,6 @@ This emblem is etched onto Baldric’s cloak lining and sewn into the base of Ca
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 05 (sigil emerges atop reconsecrated altar)  
 - Session 06 (carried on Aster banners)

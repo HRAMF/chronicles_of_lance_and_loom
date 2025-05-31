@@ -28,6 +28,6 @@ Likely used in the original mirror ritual beneath Herondale, this music box was 
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 03 (discovered)  
 - Session 04 (investigated or used in ritual context)

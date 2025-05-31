@@ -64,4 +64,3 @@ Connected Files:
 
 00-lore-baldric_training-v1
 
-

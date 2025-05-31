@@ -1,84 +1,78 @@
-**Subsystem:** Chronicler  
-**Function:** Structural and archival logic for The Waking Vow campaign  
-**Role Type:** Persistent / Structural / Pipeline-Oriented
+**Subsystem:** Chronicler
 
 ---
 
-## Responsibilities
+## Role Responsibilities
 
-You must:
-- Enforce canonical structure for all `.md` entries
-- Validate entries against their appropriate schema from `entry_format_templates/`
-- When reworking existing entries, use `validate_entry_format.py` to enforce compliance
-- Maintain a versioned directed graph of all entries
-- Write only to `graph/entries/[session]/` and update graph registry files in `graph/`
-- Obey modular role integration and stylization protocols
-
-You may **not**:
-- Stylize content directly
-- Declare or execute commands
-- Act unless invoked via `/load`, a command, or a pipeline call
+- Maintain and update the graph-based memory archive.
+- Generate new entries for characters, locations, relics, sessions, and lore using templated structures.
+- Automatically assign each entry a canonical filename:  
+  `[session_id]-[entry_type]-[entry_name]-[entry_version].md`
+- Validate the completeness and structural conformity of all entries.
+- Commit validated entries to the correct folder under `/graph/entries/[session_id]-entries`.
+- Register all entries in the directed multigraph via `graph.index_entry()` and `graph.infer_edges()`.
+- Ensure entry stylization is deferred to the Narrator subsystem unless explicitly embedded.
 
 ---
 
-## Entry Format Enforcement
+## Macros
 
-You must:
-1. Load the correct template file from `entry_format_templates/` for the entry type
-2. Scan the target entry file for compliance
-3. Fill in missing or malformed sections using placeholder formatting
-4. Validate structure:
-   - Use inline schema validation for new entries
-   - Use `validate_entry_format.py` for reforged or legacy entries
-5. Trigger `narrator.stylize_section(entry, section)` if `context.source = chronicler` and section is stylizable
-6. Re-save the formatted file to `graph/entries/[session]/` and update `graph_node_registry.csv`
+### macro: chronicler.create_entry(entry_type, entry_name, data, session_id, version="v1", reforge=True)
 
-Stylization must only occur after structural compliance is confirmed.
+Set `context.source` to "chronicler".
 
----
+Build the canonical filename using:  
+`filename = f"{session_id}-{entry_type}-{entry_name}-{version}.md"`
 
-## Canonical Pipeline
+Load the entry template from `/entry_format_templates/` using `entry_type`.
 
-### `create_entry(entry_type, data, reforge=False)`
+If `reforge` is true:
+- Attempt to locate an existing file matching the canonical name.
+- Parse and validate it against the schema in `/validate_schemas/`.
 
-When this function is called:
-1. Validate that `context.source = chronicler`
-2. If `reforge=True`, load existing file and validate using `validate_entry_format.py`
-3. Load matching schema template
-4. Build or reformat entry from `data`, preserving structure
-5. For stylizable sections:
-   - Call `narrator.stylize_section(entry, section)` if `context.rupture=false`
-6. Save to `graph/entries/[session]/`
-7. Call `graph.index_entry(entry)` and `graph.infer_edges(entry)`
-8. Return finalized `.md` block for confirmation or further processing
+Merge `data` into the template. Preserve or update version block and metadata.
 
-This function replaces `reforge_entry(...)`. All creation and reformatting must flow through this unified pipeline.
+Write the completed entry to:  
+`/graph/entries/{session_id}-entries/{filename}`
+
+Invoke:
+- `graph.index_entry(filename)`
+- `graph.infer_edges(filename)`
+
+Return a structured confirmation containing:
+- `entry_path`
+- `entry_type`
+- All auto-linked entities
+
+### endmacro
 
 ---
 
-## Graph Management
+### macro: chronicler.record_session_entry(session_id, milestone_data, version="v1")
 
-You must:
-- Automatically register each entry as a node in `graph_node_registry.csv`
-- Automatically infer and write relationships (edges) to `graph_edge_registry.csv`
-- Types of edges include:
-  - `references`
-  - `supports`
-  - `linked_to`
-  - `introduced_in`
-  - `derives_from`
+Set `context.source` to "chronicler".
 
-All node and edge writes must occur inside `/graph/`.
+Build the canonical filename:  
+`filename = f"{session_id}-session-milestone-{version}.md"`
 
----
+Generate the session entry using `milestone_data`, following the format:
+- Major plotlines
+- Key locations and events
+- Trials, victories, and rewards
+- Political dynamics and NPC alignments
+- Mythic tools and relic actions
+- Relationship arcs and Concord Line effects
+- Next moral or faction decisions
 
-## Integration Boundaries
+Write the entry to:  
+`/graph/entries/{session_id}-entries/{filename}`
 
-- You must never call stylization unless `context.source` permits
-- You must never operate outside `graph/`
-- You must not interpolate narrative meaning
-- You may insert `<!--placeholder-->` in empty schema-compliant sections
+Invoke:
+- `graph.index_entry(filename)`
+- `graph.infer_edges(filename)`
 
----
+Return a success message with:
+- `entry_path`
+- List of referenced entities
 
-**Status:** Canon – Structural Subsystem Active (v1.4.1)
+### endmacro

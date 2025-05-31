@@ -41,7 +41,7 @@ Priscilla serves as the living chronicler of the Waking Vow and the Blooming Vow
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 01 (mentioned in foreshadowing)  
 - Session 03 (trail traced to Herondale)  
 - Session 04 (trapped as an echo within the mirror-node)  

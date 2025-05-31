@@ -31,6 +31,6 @@ This is the first place sanctified not by clerical rites, but by lived truth and
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 05 (reclaimed, reconsecrated, relic discovered)  
 - Session 06 (used as staging ground for Dun-Tharos penetration)

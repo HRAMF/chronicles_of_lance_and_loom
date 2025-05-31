@@ -32,3 +32,5 @@ But her eyes say otherwise.
 **Key Moments with Baldric:**  
 - Receives Baldric in silence. Offers tea. Refuses to discuss Arkion until pressed with kindness, not law.  
 - Admits
+
+**Connected Files:**

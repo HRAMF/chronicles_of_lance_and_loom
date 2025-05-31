@@ -28,7 +28,7 @@ A shattered arena, once the stage for ancient rites of challenge and myth-bindin
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 06
 
 **Connected Relics:**  

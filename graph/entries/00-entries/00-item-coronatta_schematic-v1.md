@@ -25,7 +25,7 @@ He told Baldric: “This isn’t a weapon you wield. It’s one you become ready
 
 ---
 
-**Properties and Significance:**  
+**Properties and Powers:**  
 - The schematic is **non-magical**, but **mystically catalytic**—a convergence of inspiration, fate, and sacred geometry.  
 - Bears runes indicating a **future calling**, not a present one.  
 - Serves as the **seed-concept** of **Coronatta**, a relic not yet forged.

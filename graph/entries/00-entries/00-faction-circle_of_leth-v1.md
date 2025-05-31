@@ -49,7 +49,7 @@ Scattered and partially dormant. Survivors are either resisting corruption (like
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 01 (introduction via Calanthe)  
 - Session 05 (Blooming Vow reconsecration)  
 - Session 06 (Arannwe rescue and Hollowed Roots reclaimed)

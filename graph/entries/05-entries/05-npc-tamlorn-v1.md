@@ -40,6 +40,6 @@ Tamlorn stands as a bridge—between broken traditions and restored purpose, bet
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 05 (reunited with Baldric and Calanthe; aids in Grove sanctification)  
 - Session 06 (joins battle at Hollowed Roots; supports emergence of Aster encampment)

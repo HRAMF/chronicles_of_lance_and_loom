@@ -28,5 +28,5 @@ An obsidian spire threaded with translucent veins resembling bone or petrified r
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 06

@@ -5,8 +5,7 @@
 ---
 
 **Name:** Wedding Band of the Waltzing Dale  
-**Rarity:** Uncommon (Upgradeable)  
-**Attunement:** Yes (by a creature bound in sacred vow)  
+**Item Type:** Uncommon (Upgradeable)  
 **Worn By:** Baldric Keenglaive
 
 ---
@@ -36,6 +35,6 @@ A literal and symbolic anchor of the Waking Vow, the wedding bands of Waltzing D
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 01 (creation and narrative origin)  
 - Session 05 (empowered during Grove of the Blooming Vow consecration)

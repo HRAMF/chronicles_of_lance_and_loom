@@ -42,6 +42,6 @@ The consecration of this grove marks the turning point in the war against mythic
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 05 (ritual and sigil formation)  
 - Session 06 (host mustering, continued sanctification)

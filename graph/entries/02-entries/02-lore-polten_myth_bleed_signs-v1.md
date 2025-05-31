@@ -31,6 +31,6 @@ Linked to leyline instability and the weakening of sacred anchors like the Grove
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 02 (first clear signs)  
 - Session 03–05 (manifesting with increasing force)

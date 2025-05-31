@@ -35,6 +35,6 @@ The route is not fixed but echo-bound—each crossing of the sky between sacred 
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 02 (original flight)  
 - Session 05–06 (possible reuse in retreat or ritual flight)

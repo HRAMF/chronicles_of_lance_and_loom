@@ -29,5 +29,5 @@ A decaying forest glade sunk into a depression of gnarled roots and brittle soil
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 06

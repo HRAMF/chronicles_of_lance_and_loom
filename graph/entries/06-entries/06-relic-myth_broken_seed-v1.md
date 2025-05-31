@@ -27,7 +27,7 @@ The Myth-Broken Seed symbolizes the capacity to reject falsehoods imposed by myt
 
 ---
 
-**Related Sessions:**  
+**Connected Files:**  
 - Recovered: Session 06  
 - Consecrated: Session 06  
 - First Use (future): TBD

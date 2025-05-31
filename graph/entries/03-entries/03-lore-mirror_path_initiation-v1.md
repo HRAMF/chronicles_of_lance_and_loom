@@ -38,7 +38,7 @@ This is the first full ritual descent into a myth-node by the party. It introduc
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 03 (activation and descent)  
 - Session 04 (return and resonance fallout)  
 - Session 06+ (future echoes anticipated)

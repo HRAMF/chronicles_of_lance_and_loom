@@ -46,7 +46,7 @@ There blooms the vow beneath each rising sun.
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 05 (conceived at the altar’s renewal)  
 - Session 06 (performed during Aster deployment sanctification)  
 - Future: May be canonized by the bardic colleges or Druidic circles as a myth-sealing hymn

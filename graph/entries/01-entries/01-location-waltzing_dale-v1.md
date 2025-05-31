@@ -31,6 +31,6 @@ Waltzing Dale is the campaign’s emotional anchor. It represents the intersecti
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 01 (introduction and wedding flashbacks)  
 - Session 05 (used as reference during Grove sanctification)

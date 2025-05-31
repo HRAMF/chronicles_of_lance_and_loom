@@ -38,7 +38,7 @@ Priscilla is no longer just a chronicler—she is a living example of what happe
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 04 (rescue and reconstitution)  
 - Session 05 (readjustment and emotional anchor for the Aster host)  
 - Session 06 (support in mirror-node sanctification; reclaims bardic focus)

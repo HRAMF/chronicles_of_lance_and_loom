@@ -34,7 +34,7 @@ The vow invoked more than matrimonial promise: it created a metaphysical bond th
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 01 (establishment of the vow)  
 - Session 05 (reinvoked during consecration of the Grove of the Blooming Vow)  
 - Session 06 (echoed during mythic resistance trials)

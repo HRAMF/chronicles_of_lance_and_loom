@@ -31,7 +31,7 @@ Ironspur marks Baldric’s return to the military-religious fold and the start o
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 02 (arrival and first confrontation with weakened Order)  
 - Session 03 (staging point for journey to Herondale)  
 - Session 05 (Aster host musters here before redeployment)

@@ -11,3 +11,5 @@ Automatically succeed on one Concentration check to maintain a radiant or abjura
 When forged into Coronatta, it may:
 Grant access to an additional spell or trait tied to your celestial lineage.
 Act as the bridge between divine and arcane spellcasting in the weapon.
+
+**Connected Files:**

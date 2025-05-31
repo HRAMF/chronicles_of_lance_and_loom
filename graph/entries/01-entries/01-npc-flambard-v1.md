@@ -40,7 +40,7 @@ Flambard serves as both guide and challenge to Baldric—an anchor to tradition,
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 01 (sending stone message, inciting incident)  
 - Session 03 (council at Ironspur)  
 - Session 05–06 (arrival at Dun-Tharos with Aster host)

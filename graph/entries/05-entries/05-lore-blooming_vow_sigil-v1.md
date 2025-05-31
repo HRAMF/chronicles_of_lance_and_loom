@@ -31,6 +31,6 @@ The sigil serves as proof that the Blooming Vow is more than personal—it is co
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 05 (first emergence)  
 - Session 06 (used in warding and Aster deployment sanctification)

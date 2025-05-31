@@ -31,6 +31,6 @@ The sister serves as one of the earliest human witnesses to direct mythic corrup
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 03 (interrogated at Ironspur by Baldric and Calanthe)  
 -

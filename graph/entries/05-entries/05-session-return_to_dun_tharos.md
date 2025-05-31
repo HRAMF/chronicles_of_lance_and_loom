@@ -96,3 +96,5 @@ Closing Note:
  Where love first bloomed, the land blooms again—and gifts its hidden root.
 Next Session: The Grove of the Hollowed Roots
 
+
+**Connected Files:**

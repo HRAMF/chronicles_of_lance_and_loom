@@ -80,3 +80,5 @@ Closing Note:
  The mirror does not crack. It surrenders, quietly, to the truth.
 Next Session: Shadows at Ironspur – False Sigils and the Blooming Root
 
+
+**Connected Files:**

@@ -27,7 +27,7 @@ Though not enchanted by spell, the armor is considered **sacred**. It is worn no
 
 ---
 
-**Lore/Origin:**  
+**Origin:**  
 Crafted by **Thoradin Anvilsong** after Baldric saved his life during a tremor in the Halls. Thoradin, haunted by the divine melody he heard during the rescue, believed Baldric's survival and arrival were part of a **celestial pattern**.
 
 He forged the Dawn Aegis over weeks of prayer, smithing, and memory. The schematic within—**Coronatta**—is a future weapon he believes Baldric will one day be ready to receive, when “the sun demands its root.”

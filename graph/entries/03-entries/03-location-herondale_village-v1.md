@@ -31,6 +31,6 @@ Herondale marks the first point at which Baldric and Calanthe engage directly wi
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 03 (arrival, ritual signs, descent into mirror-node)  
 - Session 04 (mirror aftermath traced to deeper nodes)

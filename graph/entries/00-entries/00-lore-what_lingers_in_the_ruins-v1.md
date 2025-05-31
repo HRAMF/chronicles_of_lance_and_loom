@@ -39,3 +39,5 @@ Their rituals had awakened forgotten wards in the Ulcaster ruins—but not with 
 Rather than condemn them, Baldric brokered a compact:  
 - The relics were **ritually sealed** with Lathanderite sigils and returned to the ruins.  
 - Arkion and Nemphre were granted **separate pilgr
+
+**Connected Files:**

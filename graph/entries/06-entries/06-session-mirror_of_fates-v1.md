@@ -80,3 +80,5 @@ Tharol (mirror-faced traitor, defeated echo)
 Closing Remark:
  Where falsehoods fell, roots now anchor. And from myth's broken shell, a true legend begins to bloom.
 
+
+**Connected Files:**

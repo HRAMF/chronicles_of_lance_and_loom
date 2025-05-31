@@ -37,6 +37,6 @@ This heresy presents a thematic and metaphysical threat to Baldric’s divine al
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 03 (sigils and speech from broken sister, mirror-node imagery)  
 - Session 05–06 (potential return in corrupted rites or relic activations)

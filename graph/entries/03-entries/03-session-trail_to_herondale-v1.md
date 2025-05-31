@@ -75,3 +75,5 @@ Closing Note:
  The mirror offers no reflection. Only invitation.
 Next Session: The Trials of Memory and Echo – Mirrorborn Heresy
 
+
+**Connected Files:**

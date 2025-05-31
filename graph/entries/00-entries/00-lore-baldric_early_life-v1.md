@@ -40,3 +40,5 @@ At just 7 years old, Baldric was entrusted to **Brother Gylas** of the Order of 
 - The **intersection of faith and family**
 - **Rural holiness** contrasted with cosmopolitan sanctity  
 - A life defined by **pilgrimage, legacy, and tension between service and inheritance**
+
+**Connected Files:**

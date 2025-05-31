@@ -31,6 +31,6 @@ This is the first known myth-node the party enters. It marks the beginning of th
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 03 (entry, mirror activation)  
 - Session 04 (aftermath and resonance traces)

@@ -1,4 +1,3 @@
-# graph_protocol.md
 **Subsystem:** Graph Protocol  
 **Function:** Entry indexing, graph memory inference, and directed multigraph behavior  
 **Role Type:** Auxiliary / Structural
@@ -16,54 +15,82 @@ All graph logic is applied inside the `/graph/` directory.
 
 ## Canonical Macros
 
-### `graph.index_entry(entry)`
+### macro: graph.index_entry(entry_path)
+
 You must:
-1. Extract the entry ID from the filename
-2. Generate a new row in `graph_node_registry.csv` with:
-   - `entry_id`
-   - `entry_type`
-   - `title`
-   - `version`
-   - `file_path`
-3. If an entry with the same ID and version exists, overwrite its row
-4. Do not index entries without a valid ID or missing required fields
+1. Extract entry metadata from the filename using this canonical format:
+   `[session_id]-[entry_type]-[entry_name]-[entry_version].md`
+
+   Extracted fields:
+   - entry_id = entry_name
+   - entry_type
+   - version
+   - session_id
+
+2. Extract the title from the entry's frontmatter or first top-level markdown heading.
+
+3. Ensure `graph_node_registry.csv` exists. If it does not, create it with headers:
+   - entry_id,entry_type,title,version,file_path
+
+4. Add or replace a row in `graph_node_registry.csv` with:
+   - entry_id
+   - entry_type
+   - title
+   - version
+   - file_path
+
+5. Each node must be unique by (entry_id, version).
+
+### endmacro
 
 ---
 
-### `graph.infer_edges(entry)`
+### macro: graph.infer_edges(entry_path)
+
 You must:
-1. Parse the full text of the entry
-2. Identify relationships to other entries by matching:
-   - Connected Files
-   - Internal references
-   - Version lineage
-3. For each relationship, write a row to `graph_edge_registry.csv` with:
-   - `from` = this entry’s ID
-   - `to` = referenced entry’s ID
-   - `relation` = `references`, `linked_to`, `supports`, `introduced_in`, or `derives_from`
-   - `weight = 1.0` unless otherwise inferred
-4. Overwrite any duplicate edge with the same `from → to` and `relation`
+1. Parse the full text of the entry.
+
+2. Identify relationships to other entries via:
+   - Connected Files list
+   - Internal references (e.g., filenames, entry IDs)
+   - Version lineage (e.g., -v2, -v3 suffixes)
+
+3. For each valid reference, write a row to `graph_edge_registry.csv`:
+   - from = entry_id (this file)
+   - to = referenced entry_id
+   - relation = one of: references, linked_to, supports, introduced_in, derives_from
+   - weight = 1.0 unless otherwise inferred
+
+4. If `graph_edge_registry.csv` does not exist, create it with headers:
+   - from,to,relation,weight
+
+5. If an edge with the same (from to, relation) already exists, replace it.
+
+6. Do not create edges pointing to invalid or missing entries unless relation = introduced_in.
+
+### endmacro
 
 ---
 
 ## Edge Semantics
 
-- `references`: Explicit mention or citation
-- `linked_to`: Symmetrical relation (e.g., location ↔ event)
-- `supports`: Enables growth of another entry’s theme
-- `introduced_in`: Entry was discovered or created during the target session
-- `derives_from`: Entry is a revision of a prior version
+- references: Explicit mention or citation in text
+- linked_to: Symmetrical or bi-directional relationship (e.g., place <-> event)
+- supports: Thematically enables another entry
+- introduced_in: Created or revealed during a session milestone
+- derives_from: A later version or rewrite of a prior entry
 
 ---
 
 ## Invocation
 
-Only the Chronicler may call these macros.  
+Only the Chronicler may invoke these macros.
+
 You must:
-- Always call `graph.index_entry(entry)` after writing or rewriting a `.md` file
-- Always call `graph.infer_edges(entry)` if stylization or structural parsing is complete
-- Never execute graph logic during stylization
+- Call `graph.index_entry(entry_path)` after writing or rewriting any `.md` entry file.
+- Call `graph.infer_edges(entry_path)` only after stylization or structural parsing is complete.
+- Never invoke graph logic during stylization itself.
 
 ---
 
-**Status:** Canon – Auxiliary Graph Management Active (v1.4.1)
+**Status:** Canon - Auxiliary Graph Management Active (v1.5)

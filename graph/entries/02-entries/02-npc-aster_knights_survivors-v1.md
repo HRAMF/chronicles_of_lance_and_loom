@@ -37,7 +37,7 @@ These knights represent the lingering strength of the old order—diminished, bu
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 02 (first appearance, solemn welcome)  
 - Session 03 (some accompany Baldric to Herondale outskirts)  
 - Session 05 (Ironspur garrison reinforced as staging continues)

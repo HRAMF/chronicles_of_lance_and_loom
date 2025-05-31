@@ -38,7 +38,7 @@ This event demonstrates that myth-corrupted souls can be redeemed—not merely e
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 04 (trial completion and rescue)  
 - Session 05 (readjustment at Ironspur)  
 - Session 06 (present for node sanctification and Aster host reinforcement)

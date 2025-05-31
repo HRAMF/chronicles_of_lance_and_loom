@@ -37,3 +37,5 @@ This might empower Calanthe’s ring in turn:
 Empowering healing spells when protecting Baldric
 Enhanced nature-based travel when they journey together
 Shared resistance or saving throw enhancements in moments of joint danger
+
+**Connected Files:**

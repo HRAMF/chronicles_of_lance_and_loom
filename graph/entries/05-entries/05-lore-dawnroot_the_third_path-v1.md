@@ -42,6 +42,6 @@ This concept reframes the mythic war. The Blooming Vow is not merely a shield ag
 
 ---
 
-**Connected Sessions:**  
+**Connected Files:**  
 - Session 05 (revelation and naming of the altar)  
 - Session 06 (first Aster host kneels not in command, but in witness)  

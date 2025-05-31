@@ -67,3 +67,5 @@ Upon reaching Ironspur, they find the local Order of the Aster chapter diminishe
 Their journey has just begun. The flame has been carried from the Dale, and now it meets a place of ashen silence.
 
 **Next Session:** The Hollowed Grove and Priscilla’s Echo
+
+**Connected Files:**
