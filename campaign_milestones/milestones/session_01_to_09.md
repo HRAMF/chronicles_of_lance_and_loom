@@ -10,13 +10,13 @@ Session Startpoint Summary | Mythic, Political, Tactical Recap
 **The Rotting Man Arc (Active)**
 
 * Corrupted myth-node groves discovered at Dun-Tharos.
-* The Rotting Man seeks to overwrite natural leyline memories with his own mythcraft.
-* Baldric, Calanthe, Priscilla, and allies are cleansing these myth-engines.
+* The Rotting Man seeks to create an abomination siphoning elemental power using desecrated Leyline nexuses and perverting their ancient elemental magic.
+* Baldric, Calanthe, Priscilla, and allies are consecrating these corrupt nexuses and restoring the leyline, now called Lancelir.
 
 **Dracorage Mythal (Foreshadowed Arc)**
 
 * Priscilla's visions and early omens point to dragonkind stirring unprovoked, a Dracorage without King-Killar star.
-* Future arc involves confronting the resurgence of this ancient, destabilizing magic.
+* Future arc involves confronting the resurgence of this ancient, destabilizing magic, summoned by Sammaster, disguised as the returned Witch-King of Vaasa.
 
 ---
 
